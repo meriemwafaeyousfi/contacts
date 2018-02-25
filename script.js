@@ -24,7 +24,7 @@ myApp.controller('myController', ['$scope' , function($scope){
         }
       },
       'approvalprompt':'force',
-      'scope':'https:://www.googleapis.com/auth/plus.login https:://www.googleapis.com/auth/plus.profile.emails.read '
+      'scope':'https://www.googleapis.com/auth/plus.login https://www.googleapis.com/auth/plus.profile.emails.read '
     };
     gapi.auth.signIn(params);
   }
